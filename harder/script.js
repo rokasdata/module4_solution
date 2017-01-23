@@ -54,7 +54,7 @@ WARNING!!! WARNING!!!
   // name in the loop.
  
 
-(function (window){
+(function (){
     
    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
    var arrayName= names.length;
@@ -70,6 +70,6 @@ for (var i=0; i< arrayName; i++) {
      helloSpeaker.speak(names[i]);
   }
 }
-window.names=names;
+
   
-})(window);
+})();
