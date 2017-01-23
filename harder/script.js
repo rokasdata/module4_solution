@@ -54,7 +54,7 @@ WARNING!!! WARNING!!!
   // name in the loop./////////////////////////
  
 
-  (function (){
+ (function (){
       
      var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
      var arrayName= names.length;
@@ -72,4 +72,4 @@ WARNING!!! WARNING!!!
   }
 
     
-  })();//
+  })();
