@@ -54,23 +54,22 @@ WARNING!!! WARNING!!!
   // name in the loop.
  
 
-(function (){
-    
-   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-   var arrayName= names.length;
-    
-for (var i=0; i< arrayName; i++) {
-    
-    
-    var firstLetter = names[i].charAt(0).toLowerCase();
-            
-  if (firstLetter === 'j') {
-     byeSpeaker.speak(names[i]);
-  }else{
-     helloSpeaker.speak(names[i]);
+  (function (){
+      
+     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+     var arrayName= names.length;
+      
+  for (var i=0; i< arrayName; i++) {
+      
+      
+      var firstLetter = names[i].charAt(0).toLowerCase();
+              
+    if (firstLetter === 'j') {
+       byeSpeaker.speak(names[i]);
+    }else{
+       helloSpeaker.speak(names[i]);
+    }
   }
-}
 
-  
-})();
-
+    
+  })();//
